@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';  
 import { GoogleLoginProvider, FacebookLoginProvider, AuthService } from 'angularx-social-login';  
 import { SocialLoginModule, AuthServiceConfig } from 'angularx-social-login';  
-import { Socialusers } from '../Model/Socialusers'  
-import { SocialloginService } from '../Service/sociallogin.service';  
+import { Socialusers } from '../model/Socialusers'  
+import { SocialloginService } from '../service/sociallogin.service';  
 import { Router, ActivatedRoute, Params } from '@angular/router';  
 @Component({  
   selector: 'app-login',  
