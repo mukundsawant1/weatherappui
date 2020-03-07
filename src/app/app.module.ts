@@ -23,7 +23,7 @@ export function socialConfigs() {
 }  
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,AppRoutingModule  ],
+  imports:      [ BrowserModule, FormsModule,AppRoutingModule,HttpClientModule  ],
   declarations: [ AppComponent, HelloComponent, LoginComponent,  
     DashboardComponent   ],
      providers: [  
