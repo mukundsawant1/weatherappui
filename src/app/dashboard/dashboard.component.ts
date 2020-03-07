@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';  
 import { SocialLoginModule, AuthServiceConfig, AuthService } from 'angularx-social-login';  
-import { Socialusers } from '../Model/socialusers'  
-import { SocialloginService } from '../Service/sociallogin.service';  
+import { Socialusers } from '../model/Socialusers'  
+//import { SocialloginService } from '../Service/sociallogin.service';  
 import { Router } from '@angular/router';  
 @Component({  
   selector: 'app-dashboard',  
-  templateUrl: './dashboard.component.html',  
-  styleUrls: ['./dashboard.component.css']  
+  templateUrl: './dashboard.component.html'
+  //,  
+  //styleUrls: ['./dashboard.component.css']  
 })  
 export class DashboardComponent implements OnInit {  
   socialusers = new Socialusers();  

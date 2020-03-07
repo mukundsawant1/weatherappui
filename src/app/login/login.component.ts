@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';  
 import { GoogleLoginProvider, FacebookLoginProvider, AuthService } from 'angularx-social-login';  
 import { SocialLoginModule, AuthServiceConfig } from 'angularx-social-login';  
-import { Socialusers } from '../model/Socialusers'  
+import { Socialusers } from '../Model/Socialusers'  
 import { SocialloginService } from '../Service/sociallogin.service';  
 import { Router, ActivatedRoute, Params } from '@angular/router';  
 @Component({  
   selector: 'app-login',  
-  templateUrl: './login.component.html',  
-  styleUrls: ['./login.component.css']  
+  templateUrl: './login.component.html'
+  //,  
+  //styleUrls: ['./login.component.css']  
 })  
 export class LoginComponent implements OnInit {  
   response;  
